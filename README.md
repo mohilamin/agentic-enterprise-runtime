@@ -233,4 +233,3 @@ V0.1 target:
 - observability with OpenTelemetry
 - cloud deployment
 - role-based access control
-
