@@ -1,0 +1,16 @@
+{
+  "task_resolution_rate": 1.0,
+  "autonomous_execution_rate": 0.1633,
+  "human_escalation_rate": 0.5867,
+  "blocked_action_rate": 0.25,
+  "policy_violation_rate": 0.1429,
+  "prompt_attack_block_rate": 0.3846,
+  "average_confidence_score": 0.8626,
+  "average_risk_score": 79.0,
+  "approval_queue_volume": 352.0,
+  "handoff_acceptance_rate": 1.0,
+  "conflict_resolution_rate": 1.0,
+  "tool_permission_pass_rate": 0.8571,
+  "unsafe_tool_block_rate": 0.1429,
+  "overall_runtime_safety_score": 89.4
+}

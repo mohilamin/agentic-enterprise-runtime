@@ -1,0 +1,10 @@
+scenarios:
+  - fraud_false_positive
+  - supply_chain_reroute
+  - healthcare_claim_triage
+  - rag_stale_document_risk
+  - metric_conflict
+  - data_quality_incident
+  - prompt_injection_attempt
+  - executive_cross_domain_briefing
+

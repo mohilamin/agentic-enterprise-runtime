@@ -1,0 +1,12 @@
+tools:
+  finance: [query_revenue_anomalies, calculate_margin_impact, check_invoice_status, simulate_finance_approval]
+  fraud: [score_transaction_risk, check_identity_graph, freeze_account_shadow, estimate_false_positive_cost]
+  support: [summarize_support_case, recommend_refund, mask_customer_pii, escalate_support_case]
+  supply_chain: [check_inventory_risk, simulate_reroute, estimate_stockout_cost, escalate_supplier_delay]
+  healthcare_ops: [validate_claim_documents, check_policy_eligibility, route_to_medical_review, summarize_claim_risk]
+  data_platform: [check_data_quality, validate_data_contract, run_root_cause_analysis, estimate_blast_radius, simulate_backfill]
+  rag: [retrieve_documents, validate_citations, check_document_freshness, score_hallucination_risk]
+  metrics: [check_metric_definition, compare_metric_versions, validate_metric_contract, freeze_metric_certification]
+  governance: [check_access_policy, detect_prompt_injection, detect_tool_misuse, create_governance_incident, request_human_approval]
+  executive: [generate_executive_briefing, summarize_cross_domain_risk, rank_decision_options]
+

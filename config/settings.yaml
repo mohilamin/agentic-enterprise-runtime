@@ -1,0 +1,7 @@
+project_name: Agentic Enterprise Runtime
+random_seed: 42
+task_count: 600
+risk_escalation_threshold: 70
+confidence_execution_threshold: 0.82
+approval_risk_threshold: 65
+

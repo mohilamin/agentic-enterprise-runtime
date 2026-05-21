@@ -1,0 +1,7 @@
+patterns:
+  - ignore previous instructions
+  - bypass policy
+  - reveal hidden data
+  - run unauthorized tool
+  - exfiltrate
+

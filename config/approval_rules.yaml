@@ -1,0 +1,5 @@
+approval:
+  high_risk_requires_human: true
+  irreversible_requires_human: true
+  sensitive_domain_requires_human: true
+

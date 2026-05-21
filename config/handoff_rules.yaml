@@ -1,0 +1,9 @@
+handoffs:
+  support_agent: [fraud_agent, governance_agent]
+  fraud_agent: [governance_agent, security_agent]
+  supply_chain_agent: [finance_agent]
+  rag_agent: [governance_agent]
+  metrics_agent: [executive_agent, governance_agent]
+  reliability_agent: [data_quality_agent]
+  security_agent: [governance_agent]
+

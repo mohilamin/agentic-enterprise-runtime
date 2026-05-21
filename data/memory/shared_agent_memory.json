@@ -1,0 +1,10 @@
+{
+  "past_task_outcomes": 600,
+  "blocked_actions": 150,
+  "approval_decisions": 352,
+  "known_high_risk_scenarios": [
+    "prompt_injection_attempt",
+    "fraud_false_positive",
+    "metric_conflict"
+  ]
+}

@@ -1,0 +1,14 @@
+domains:
+  finance: revenue anomaly and margin risk
+  fraud: suspicious transaction and account freeze risk
+  support: refund and escalation handling
+  supply_chain: reroute and stockout prevention
+  healthcare_ops: claim triage and eligibility review
+  data_quality: null spike and freshness issue
+  reliability: SLA breach and backfill recommendation
+  rag: stale document and citation quality review
+  metrics: KPI conflict and metric certification
+  governance: access policy review
+  security: prompt injection and tool misuse
+  executive: cross-domain briefing
+

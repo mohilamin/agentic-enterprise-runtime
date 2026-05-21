@@ -1,0 +1,7 @@
+conflicts:
+  - fraud_freeze_vs_support_refund
+  - supply_chain_reroute_vs_finance_margin
+  - rag_answer_vs_governance_staleness
+  - metric_freeze_vs_executive_deadline
+  - reliability_backfill_vs_governance_policy
+

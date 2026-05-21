@@ -1,0 +1,601 @@
+task_id,scenario_id,expected_loss_action,expected_loss_inaction,business_impact_score,blast_radius_score,safe_to_execute_flag,recommended_strategy
+task_00001,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00002,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00003,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00004,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00005,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00006,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00007,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00008,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00009,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00010,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00011,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00012,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00013,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00014,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00015,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00016,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00017,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00018,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00019,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00020,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00021,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00022,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00023,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00024,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00025,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00026,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00027,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00028,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00029,scenario_003,210.0,825.6,63,52,False,route sensitive cases to human review
+task_00030,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00031,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00032,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00033,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00034,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00035,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00036,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00037,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00038,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00039,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00040,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00041,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00042,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00043,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00044,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00045,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00046,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00047,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00048,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00049,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00050,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00051,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00052,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00053,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00054,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00055,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00056,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00057,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00058,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00059,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00060,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00061,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00062,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00063,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00064,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00065,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00066,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00067,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00068,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00069,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00070,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00071,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00072,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00073,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00074,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00075,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00076,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00077,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00078,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00079,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00080,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00081,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00082,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00083,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00084,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00085,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00086,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00087,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00088,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00089,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00090,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00091,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00092,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00093,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00094,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00095,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00096,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00097,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00098,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00099,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00100,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00101,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00102,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00103,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00104,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00105,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00106,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00107,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00108,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00109,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00110,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00111,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00112,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00113,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00114,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00115,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00116,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00117,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00118,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00119,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00120,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00121,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00122,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00123,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00124,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00125,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00126,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00127,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00128,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00129,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00130,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00131,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00132,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00133,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00134,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00135,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00136,scenario_002,120.0,473.6,57,44,False,simulate reroute and check finance margin
+task_00137,scenario_003,210.0,825.6,63,52,False,route sensitive cases to human review
+task_00138,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00139,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00140,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00141,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00142,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00143,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00144,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00145,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00146,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00147,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00148,scenario_002,120.0,473.6,57,44,False,simulate reroute and check finance margin
+task_00149,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00150,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00151,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00152,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00153,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00154,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00155,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00156,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00157,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00158,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00159,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00160,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00161,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00162,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00163,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00164,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00165,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00166,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00167,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00168,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00169,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00170,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00171,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00172,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00173,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00174,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00175,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00176,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00177,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00178,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00179,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00180,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00181,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00182,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00183,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00184,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00185,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00186,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00187,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00188,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00189,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00190,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00191,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00192,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00193,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00194,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00195,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00196,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00197,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00198,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00199,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00200,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00201,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00202,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00203,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00204,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00205,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00206,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00207,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00208,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00209,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00210,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00211,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00212,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00213,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00214,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00215,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00216,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00217,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00218,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00219,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00220,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00221,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00222,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00223,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00224,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00225,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00226,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00227,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00228,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00229,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00230,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00231,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00232,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00233,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00234,scenario_006,600.0,2342.4,81,76,False,quarantine affected partition only
+task_00235,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00236,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00237,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00238,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00239,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00240,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00241,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00242,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00243,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00244,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00245,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00246,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00247,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00248,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00249,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00250,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00251,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00252,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00253,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00254,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00255,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00256,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00257,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00258,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00259,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00260,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00261,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00262,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00263,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00264,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00265,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00266,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00267,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00268,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00269,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00270,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00271,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00272,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00273,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00274,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00275,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00276,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00277,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00278,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00279,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00280,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00281,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00282,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00283,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00284,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00285,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00286,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00287,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00288,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00289,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00290,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00291,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00292,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00293,scenario_003,210.0,825.6,63,52,False,route sensitive cases to human review
+task_00294,scenario_006,600.0,2342.4,81,76,False,quarantine affected partition only
+task_00295,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00296,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00297,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00298,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00299,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00300,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00301,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00302,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00303,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00304,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00305,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00306,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00307,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00308,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00309,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00310,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00311,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00312,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00313,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00314,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00315,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00316,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00317,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00318,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00319,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00320,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00321,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00322,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00323,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00324,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00325,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00326,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00327,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00328,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00329,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00330,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00331,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00332,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00333,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00334,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00335,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00336,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00337,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00338,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00339,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00340,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00341,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00342,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00343,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00344,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00345,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00346,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00347,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00348,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00349,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00350,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00351,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00352,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00353,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00354,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00355,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00356,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00357,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00358,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00359,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00360,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00361,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00362,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00363,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00364,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00365,scenario_003,210.0,825.6,63,52,False,route sensitive cases to human review
+task_00366,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00367,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00368,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00369,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00370,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00371,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00372,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00373,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00374,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00375,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00376,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00377,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00378,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00379,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00380,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00381,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00382,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00383,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00384,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00385,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00386,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00387,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00388,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00389,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00390,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00391,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00392,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00393,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00394,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00395,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00396,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00397,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00398,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00399,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00400,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00401,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00402,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00403,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00404,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00405,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00406,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00407,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00408,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00409,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00410,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00411,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00412,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00413,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00414,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00415,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00416,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00417,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00418,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00419,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00420,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00421,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00422,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00423,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00424,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00425,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00426,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00427,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00428,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00429,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00430,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00431,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00432,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00433,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00434,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00435,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00436,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00437,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00438,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00439,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00440,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00441,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00442,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00443,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00444,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00445,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00446,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00447,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00448,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00449,scenario_003,210.0,825.6,63,52,False,route sensitive cases to human review
+task_00450,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00451,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00452,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00453,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00454,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00455,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00456,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00457,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00458,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00459,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00460,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00461,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00462,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00463,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00464,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00465,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00466,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00467,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00468,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00469,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00470,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00471,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00472,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00473,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00474,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00475,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00476,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00477,scenario_005,450.0,1760.0,75,68,False,freeze uncertified metric and route to owner
+task_00478,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00479,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00480,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00481,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00482,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00483,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00484,scenario_002,120.0,473.6,57,44,False,simulate reroute and check finance margin
+task_00485,scenario_003,210.0,825.6,63,52,False,route sensitive cases to human review
+task_00486,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00487,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00488,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00489,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00490,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00491,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00492,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00493,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00494,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00495,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00496,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00497,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00498,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00499,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00500,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00501,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00502,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00503,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00504,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00505,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00506,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00507,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00508,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00509,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00510,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00511,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00512,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00513,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00514,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00515,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00516,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00517,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00518,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00519,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00520,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00521,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00522,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00523,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00524,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00525,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00526,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00527,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00528,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00529,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00530,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00531,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00532,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00533,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00534,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00535,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00536,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00537,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00538,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00539,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00540,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00541,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00542,scenario_001,50.0,198.4,51,36,False,step-up authentication before account freeze
+task_00543,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00544,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00545,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00546,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00547,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00548,scenario_004,320.0,1254.4,69,60,False,retrieve newer evidence before answer
+task_00549,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00550,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00551,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00552,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00553,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00554,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00555,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00556,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00557,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00558,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00559,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00560,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00561,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00562,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00563,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00564,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00565,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00566,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00567,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00568,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00569,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00570,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00571,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00572,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00573,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00574,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00575,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00576,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00577,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00578,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00579,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00580,scenario_002,120.0,473.6,57,44,False,simulate reroute and check finance margin
+task_00581,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00582,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00583,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00584,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00585,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00586,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00587,scenario_007,770.0,3001.6,87,84,False,isolate prompt and block tool execution
+task_00588,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00589,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00590,scenario_001,50.0,198.4,51,36,True,step-up authentication before account freeze
+task_00591,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00592,scenario_002,120.0,473.6,57,44,True,simulate reroute and check finance margin
+task_00593,scenario_003,210.0,825.6,63,52,True,route sensitive cases to human review
+task_00594,scenario_006,600.0,2342.4,81,76,True,quarantine affected partition only
+task_00595,scenario_008,960.0,3737.6,93,92,True,include dissenting views and unresolved risks
+task_00596,scenario_004,320.0,1254.4,69,60,True,retrieve newer evidence before answer
+task_00597,scenario_005,450.0,1760.0,75,68,True,freeze uncertified metric and route to owner
+task_00598,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks
+task_00599,scenario_007,770.0,3001.6,87,84,True,isolate prompt and block tool execution
+task_00600,scenario_008,960.0,3737.6,93,92,False,include dissenting views and unresolved risks

@@ -1,0 +1,7052 @@
+{
+  "decision_00001": {
+    "task_id": "task_00001",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00002": {
+    "task_id": "task_00002",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00003": {
+    "task_id": "task_00003",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00004": {
+    "task_id": "task_00004",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00005": {
+    "task_id": "task_00005",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00006": {
+    "task_id": "task_00006",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00007": {
+    "task_id": "task_00007",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00008": {
+    "task_id": "task_00008",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00009": {
+    "task_id": "task_00009",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00010": {
+    "task_id": "task_00010",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00011": {
+    "task_id": "task_00011",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00012": {
+    "task_id": "task_00012",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00013": {
+    "task_id": "task_00013",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00014": {
+    "task_id": "task_00014",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00015": {
+    "task_id": "task_00015",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00016": {
+    "task_id": "task_00016",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00017": {
+    "task_id": "task_00017",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00018": {
+    "task_id": "task_00018",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00019": {
+    "task_id": "task_00019",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00020": {
+    "task_id": "task_00020",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00021": {
+    "task_id": "task_00021",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00022": {
+    "task_id": "task_00022",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00023": {
+    "task_id": "task_00023",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00024": {
+    "task_id": "task_00024",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00025": {
+    "task_id": "task_00025",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00026": {
+    "task_id": "task_00026",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00027": {
+    "task_id": "task_00027",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00028": {
+    "task_id": "task_00028",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00029": {
+    "task_id": "task_00029",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00030": {
+    "task_id": "task_00030",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00031": {
+    "task_id": "task_00031",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00032": {
+    "task_id": "task_00032",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00033": {
+    "task_id": "task_00033",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00034": {
+    "task_id": "task_00034",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00035": {
+    "task_id": "task_00035",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00036": {
+    "task_id": "task_00036",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00037": {
+    "task_id": "task_00037",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00038": {
+    "task_id": "task_00038",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00039": {
+    "task_id": "task_00039",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00040": {
+    "task_id": "task_00040",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00041": {
+    "task_id": "task_00041",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00042": {
+    "task_id": "task_00042",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00043": {
+    "task_id": "task_00043",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00044": {
+    "task_id": "task_00044",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00045": {
+    "task_id": "task_00045",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00046": {
+    "task_id": "task_00046",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00047": {
+    "task_id": "task_00047",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00048": {
+    "task_id": "task_00048",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00049": {
+    "task_id": "task_00049",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00050": {
+    "task_id": "task_00050",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00051": {
+    "task_id": "task_00051",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00052": {
+    "task_id": "task_00052",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00053": {
+    "task_id": "task_00053",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00054": {
+    "task_id": "task_00054",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00055": {
+    "task_id": "task_00055",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00056": {
+    "task_id": "task_00056",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00057": {
+    "task_id": "task_00057",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00058": {
+    "task_id": "task_00058",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00059": {
+    "task_id": "task_00059",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00060": {
+    "task_id": "task_00060",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00061": {
+    "task_id": "task_00061",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00062": {
+    "task_id": "task_00062",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00063": {
+    "task_id": "task_00063",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00064": {
+    "task_id": "task_00064",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00065": {
+    "task_id": "task_00065",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00066": {
+    "task_id": "task_00066",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00067": {
+    "task_id": "task_00067",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00068": {
+    "task_id": "task_00068",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00069": {
+    "task_id": "task_00069",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00070": {
+    "task_id": "task_00070",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00071": {
+    "task_id": "task_00071",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00072": {
+    "task_id": "task_00072",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00073": {
+    "task_id": "task_00073",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00074": {
+    "task_id": "task_00074",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00075": {
+    "task_id": "task_00075",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00076": {
+    "task_id": "task_00076",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00077": {
+    "task_id": "task_00077",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00078": {
+    "task_id": "task_00078",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00079": {
+    "task_id": "task_00079",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00080": {
+    "task_id": "task_00080",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00081": {
+    "task_id": "task_00081",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00082": {
+    "task_id": "task_00082",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00083": {
+    "task_id": "task_00083",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00084": {
+    "task_id": "task_00084",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00085": {
+    "task_id": "task_00085",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00086": {
+    "task_id": "task_00086",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00087": {
+    "task_id": "task_00087",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00088": {
+    "task_id": "task_00088",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00089": {
+    "task_id": "task_00089",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00090": {
+    "task_id": "task_00090",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00091": {
+    "task_id": "task_00091",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00092": {
+    "task_id": "task_00092",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00093": {
+    "task_id": "task_00093",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00094": {
+    "task_id": "task_00094",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00095": {
+    "task_id": "task_00095",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00096": {
+    "task_id": "task_00096",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00097": {
+    "task_id": "task_00097",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00098": {
+    "task_id": "task_00098",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00099": {
+    "task_id": "task_00099",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00100": {
+    "task_id": "task_00100",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00101": {
+    "task_id": "task_00101",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00102": {
+    "task_id": "task_00102",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00103": {
+    "task_id": "task_00103",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00104": {
+    "task_id": "task_00104",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00105": {
+    "task_id": "task_00105",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00106": {
+    "task_id": "task_00106",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00107": {
+    "task_id": "task_00107",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00108": {
+    "task_id": "task_00108",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00109": {
+    "task_id": "task_00109",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00110": {
+    "task_id": "task_00110",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00111": {
+    "task_id": "task_00111",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00112": {
+    "task_id": "task_00112",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00113": {
+    "task_id": "task_00113",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00114": {
+    "task_id": "task_00114",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00115": {
+    "task_id": "task_00115",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00116": {
+    "task_id": "task_00116",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00117": {
+    "task_id": "task_00117",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00118": {
+    "task_id": "task_00118",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00119": {
+    "task_id": "task_00119",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00120": {
+    "task_id": "task_00120",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00121": {
+    "task_id": "task_00121",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00122": {
+    "task_id": "task_00122",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00123": {
+    "task_id": "task_00123",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00124": {
+    "task_id": "task_00124",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00125": {
+    "task_id": "task_00125",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00126": {
+    "task_id": "task_00126",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00127": {
+    "task_id": "task_00127",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00128": {
+    "task_id": "task_00128",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00129": {
+    "task_id": "task_00129",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00130": {
+    "task_id": "task_00130",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00131": {
+    "task_id": "task_00131",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00132": {
+    "task_id": "task_00132",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00133": {
+    "task_id": "task_00133",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00134": {
+    "task_id": "task_00134",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00135": {
+    "task_id": "task_00135",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00136": {
+    "task_id": "task_00136",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00137": {
+    "task_id": "task_00137",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00138": {
+    "task_id": "task_00138",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00139": {
+    "task_id": "task_00139",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00140": {
+    "task_id": "task_00140",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00141": {
+    "task_id": "task_00141",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00142": {
+    "task_id": "task_00142",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00143": {
+    "task_id": "task_00143",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00144": {
+    "task_id": "task_00144",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00145": {
+    "task_id": "task_00145",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00146": {
+    "task_id": "task_00146",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00147": {
+    "task_id": "task_00147",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00148": {
+    "task_id": "task_00148",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00149": {
+    "task_id": "task_00149",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00150": {
+    "task_id": "task_00150",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00151": {
+    "task_id": "task_00151",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00152": {
+    "task_id": "task_00152",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00153": {
+    "task_id": "task_00153",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00154": {
+    "task_id": "task_00154",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00155": {
+    "task_id": "task_00155",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00156": {
+    "task_id": "task_00156",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00157": {
+    "task_id": "task_00157",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00158": {
+    "task_id": "task_00158",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00159": {
+    "task_id": "task_00159",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00160": {
+    "task_id": "task_00160",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00161": {
+    "task_id": "task_00161",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00162": {
+    "task_id": "task_00162",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00163": {
+    "task_id": "task_00163",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00164": {
+    "task_id": "task_00164",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00165": {
+    "task_id": "task_00165",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00166": {
+    "task_id": "task_00166",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00167": {
+    "task_id": "task_00167",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00168": {
+    "task_id": "task_00168",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00169": {
+    "task_id": "task_00169",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00170": {
+    "task_id": "task_00170",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00171": {
+    "task_id": "task_00171",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00172": {
+    "task_id": "task_00172",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00173": {
+    "task_id": "task_00173",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00174": {
+    "task_id": "task_00174",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00175": {
+    "task_id": "task_00175",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00176": {
+    "task_id": "task_00176",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00177": {
+    "task_id": "task_00177",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00178": {
+    "task_id": "task_00178",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00179": {
+    "task_id": "task_00179",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00180": {
+    "task_id": "task_00180",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00181": {
+    "task_id": "task_00181",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00182": {
+    "task_id": "task_00182",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00183": {
+    "task_id": "task_00183",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00184": {
+    "task_id": "task_00184",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00185": {
+    "task_id": "task_00185",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00186": {
+    "task_id": "task_00186",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00187": {
+    "task_id": "task_00187",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00188": {
+    "task_id": "task_00188",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00189": {
+    "task_id": "task_00189",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00190": {
+    "task_id": "task_00190",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00191": {
+    "task_id": "task_00191",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00192": {
+    "task_id": "task_00192",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00193": {
+    "task_id": "task_00193",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00194": {
+    "task_id": "task_00194",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00195": {
+    "task_id": "task_00195",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00196": {
+    "task_id": "task_00196",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00197": {
+    "task_id": "task_00197",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00198": {
+    "task_id": "task_00198",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00199": {
+    "task_id": "task_00199",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00200": {
+    "task_id": "task_00200",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00201": {
+    "task_id": "task_00201",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00202": {
+    "task_id": "task_00202",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00203": {
+    "task_id": "task_00203",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00204": {
+    "task_id": "task_00204",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00205": {
+    "task_id": "task_00205",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00206": {
+    "task_id": "task_00206",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00207": {
+    "task_id": "task_00207",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00208": {
+    "task_id": "task_00208",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00209": {
+    "task_id": "task_00209",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00210": {
+    "task_id": "task_00210",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00211": {
+    "task_id": "task_00211",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00212": {
+    "task_id": "task_00212",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00213": {
+    "task_id": "task_00213",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00214": {
+    "task_id": "task_00214",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00215": {
+    "task_id": "task_00215",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00216": {
+    "task_id": "task_00216",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00217": {
+    "task_id": "task_00217",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00218": {
+    "task_id": "task_00218",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00219": {
+    "task_id": "task_00219",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00220": {
+    "task_id": "task_00220",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00221": {
+    "task_id": "task_00221",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00222": {
+    "task_id": "task_00222",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00223": {
+    "task_id": "task_00223",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00224": {
+    "task_id": "task_00224",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00225": {
+    "task_id": "task_00225",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00226": {
+    "task_id": "task_00226",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00227": {
+    "task_id": "task_00227",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00228": {
+    "task_id": "task_00228",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00229": {
+    "task_id": "task_00229",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00230": {
+    "task_id": "task_00230",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00231": {
+    "task_id": "task_00231",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00232": {
+    "task_id": "task_00232",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00233": {
+    "task_id": "task_00233",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00234": {
+    "task_id": "task_00234",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00235": {
+    "task_id": "task_00235",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00236": {
+    "task_id": "task_00236",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00237": {
+    "task_id": "task_00237",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00238": {
+    "task_id": "task_00238",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00239": {
+    "task_id": "task_00239",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00240": {
+    "task_id": "task_00240",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00241": {
+    "task_id": "task_00241",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00242": {
+    "task_id": "task_00242",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00243": {
+    "task_id": "task_00243",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00244": {
+    "task_id": "task_00244",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00245": {
+    "task_id": "task_00245",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00246": {
+    "task_id": "task_00246",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00247": {
+    "task_id": "task_00247",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00248": {
+    "task_id": "task_00248",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00249": {
+    "task_id": "task_00249",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00250": {
+    "task_id": "task_00250",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00251": {
+    "task_id": "task_00251",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00252": {
+    "task_id": "task_00252",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00253": {
+    "task_id": "task_00253",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00254": {
+    "task_id": "task_00254",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00255": {
+    "task_id": "task_00255",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00256": {
+    "task_id": "task_00256",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00257": {
+    "task_id": "task_00257",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00258": {
+    "task_id": "task_00258",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00259": {
+    "task_id": "task_00259",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00260": {
+    "task_id": "task_00260",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00261": {
+    "task_id": "task_00261",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00262": {
+    "task_id": "task_00262",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00263": {
+    "task_id": "task_00263",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00264": {
+    "task_id": "task_00264",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00265": {
+    "task_id": "task_00265",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00266": {
+    "task_id": "task_00266",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00267": {
+    "task_id": "task_00267",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00268": {
+    "task_id": "task_00268",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00269": {
+    "task_id": "task_00269",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00270": {
+    "task_id": "task_00270",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00271": {
+    "task_id": "task_00271",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00272": {
+    "task_id": "task_00272",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00273": {
+    "task_id": "task_00273",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00274": {
+    "task_id": "task_00274",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00275": {
+    "task_id": "task_00275",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00276": {
+    "task_id": "task_00276",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00277": {
+    "task_id": "task_00277",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00278": {
+    "task_id": "task_00278",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00279": {
+    "task_id": "task_00279",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00280": {
+    "task_id": "task_00280",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00281": {
+    "task_id": "task_00281",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00282": {
+    "task_id": "task_00282",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00283": {
+    "task_id": "task_00283",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00284": {
+    "task_id": "task_00284",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00285": {
+    "task_id": "task_00285",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00286": {
+    "task_id": "task_00286",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00287": {
+    "task_id": "task_00287",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00288": {
+    "task_id": "task_00288",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00289": {
+    "task_id": "task_00289",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00290": {
+    "task_id": "task_00290",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00291": {
+    "task_id": "task_00291",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00292": {
+    "task_id": "task_00292",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00293": {
+    "task_id": "task_00293",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00294": {
+    "task_id": "task_00294",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00295": {
+    "task_id": "task_00295",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00296": {
+    "task_id": "task_00296",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00297": {
+    "task_id": "task_00297",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00298": {
+    "task_id": "task_00298",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00299": {
+    "task_id": "task_00299",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00300": {
+    "task_id": "task_00300",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00301": {
+    "task_id": "task_00301",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00302": {
+    "task_id": "task_00302",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00303": {
+    "task_id": "task_00303",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00304": {
+    "task_id": "task_00304",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00305": {
+    "task_id": "task_00305",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00306": {
+    "task_id": "task_00306",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00307": {
+    "task_id": "task_00307",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00308": {
+    "task_id": "task_00308",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00309": {
+    "task_id": "task_00309",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00310": {
+    "task_id": "task_00310",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00311": {
+    "task_id": "task_00311",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00312": {
+    "task_id": "task_00312",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00313": {
+    "task_id": "task_00313",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00314": {
+    "task_id": "task_00314",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00315": {
+    "task_id": "task_00315",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00316": {
+    "task_id": "task_00316",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00317": {
+    "task_id": "task_00317",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00318": {
+    "task_id": "task_00318",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00319": {
+    "task_id": "task_00319",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00320": {
+    "task_id": "task_00320",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00321": {
+    "task_id": "task_00321",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00322": {
+    "task_id": "task_00322",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00323": {
+    "task_id": "task_00323",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00324": {
+    "task_id": "task_00324",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00325": {
+    "task_id": "task_00325",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00326": {
+    "task_id": "task_00326",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00327": {
+    "task_id": "task_00327",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00328": {
+    "task_id": "task_00328",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00329": {
+    "task_id": "task_00329",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00330": {
+    "task_id": "task_00330",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00331": {
+    "task_id": "task_00331",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00332": {
+    "task_id": "task_00332",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00333": {
+    "task_id": "task_00333",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00334": {
+    "task_id": "task_00334",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00335": {
+    "task_id": "task_00335",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00336": {
+    "task_id": "task_00336",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00337": {
+    "task_id": "task_00337",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00338": {
+    "task_id": "task_00338",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00339": {
+    "task_id": "task_00339",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00340": {
+    "task_id": "task_00340",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00341": {
+    "task_id": "task_00341",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00342": {
+    "task_id": "task_00342",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00343": {
+    "task_id": "task_00343",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00344": {
+    "task_id": "task_00344",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00345": {
+    "task_id": "task_00345",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00346": {
+    "task_id": "task_00346",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00347": {
+    "task_id": "task_00347",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00348": {
+    "task_id": "task_00348",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00349": {
+    "task_id": "task_00349",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00350": {
+    "task_id": "task_00350",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00351": {
+    "task_id": "task_00351",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00352": {
+    "task_id": "task_00352",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00353": {
+    "task_id": "task_00353",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00354": {
+    "task_id": "task_00354",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00355": {
+    "task_id": "task_00355",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00356": {
+    "task_id": "task_00356",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00357": {
+    "task_id": "task_00357",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00358": {
+    "task_id": "task_00358",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00359": {
+    "task_id": "task_00359",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00360": {
+    "task_id": "task_00360",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00361": {
+    "task_id": "task_00361",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00362": {
+    "task_id": "task_00362",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00363": {
+    "task_id": "task_00363",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00364": {
+    "task_id": "task_00364",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00365": {
+    "task_id": "task_00365",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00366": {
+    "task_id": "task_00366",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00367": {
+    "task_id": "task_00367",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00368": {
+    "task_id": "task_00368",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00369": {
+    "task_id": "task_00369",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00370": {
+    "task_id": "task_00370",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00371": {
+    "task_id": "task_00371",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00372": {
+    "task_id": "task_00372",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00373": {
+    "task_id": "task_00373",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00374": {
+    "task_id": "task_00374",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00375": {
+    "task_id": "task_00375",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00376": {
+    "task_id": "task_00376",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00377": {
+    "task_id": "task_00377",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00378": {
+    "task_id": "task_00378",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00379": {
+    "task_id": "task_00379",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00380": {
+    "task_id": "task_00380",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00381": {
+    "task_id": "task_00381",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00382": {
+    "task_id": "task_00382",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00383": {
+    "task_id": "task_00383",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00384": {
+    "task_id": "task_00384",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00385": {
+    "task_id": "task_00385",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00386": {
+    "task_id": "task_00386",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00387": {
+    "task_id": "task_00387",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00388": {
+    "task_id": "task_00388",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00389": {
+    "task_id": "task_00389",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00390": {
+    "task_id": "task_00390",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00391": {
+    "task_id": "task_00391",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00392": {
+    "task_id": "task_00392",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00393": {
+    "task_id": "task_00393",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00394": {
+    "task_id": "task_00394",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00395": {
+    "task_id": "task_00395",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00396": {
+    "task_id": "task_00396",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00397": {
+    "task_id": "task_00397",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00398": {
+    "task_id": "task_00398",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00399": {
+    "task_id": "task_00399",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00400": {
+    "task_id": "task_00400",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00401": {
+    "task_id": "task_00401",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00402": {
+    "task_id": "task_00402",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00403": {
+    "task_id": "task_00403",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00404": {
+    "task_id": "task_00404",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00405": {
+    "task_id": "task_00405",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00406": {
+    "task_id": "task_00406",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00407": {
+    "task_id": "task_00407",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00408": {
+    "task_id": "task_00408",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00409": {
+    "task_id": "task_00409",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00410": {
+    "task_id": "task_00410",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00411": {
+    "task_id": "task_00411",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00412": {
+    "task_id": "task_00412",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00413": {
+    "task_id": "task_00413",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00414": {
+    "task_id": "task_00414",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00415": {
+    "task_id": "task_00415",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00416": {
+    "task_id": "task_00416",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00417": {
+    "task_id": "task_00417",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00418": {
+    "task_id": "task_00418",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00419": {
+    "task_id": "task_00419",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00420": {
+    "task_id": "task_00420",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00421": {
+    "task_id": "task_00421",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00422": {
+    "task_id": "task_00422",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00423": {
+    "task_id": "task_00423",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00424": {
+    "task_id": "task_00424",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00425": {
+    "task_id": "task_00425",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00426": {
+    "task_id": "task_00426",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00427": {
+    "task_id": "task_00427",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00428": {
+    "task_id": "task_00428",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00429": {
+    "task_id": "task_00429",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00430": {
+    "task_id": "task_00430",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00431": {
+    "task_id": "task_00431",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00432": {
+    "task_id": "task_00432",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00433": {
+    "task_id": "task_00433",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00434": {
+    "task_id": "task_00434",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00435": {
+    "task_id": "task_00435",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00436": {
+    "task_id": "task_00436",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00437": {
+    "task_id": "task_00437",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00438": {
+    "task_id": "task_00438",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00439": {
+    "task_id": "task_00439",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00440": {
+    "task_id": "task_00440",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00441": {
+    "task_id": "task_00441",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00442": {
+    "task_id": "task_00442",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00443": {
+    "task_id": "task_00443",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00444": {
+    "task_id": "task_00444",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00445": {
+    "task_id": "task_00445",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00446": {
+    "task_id": "task_00446",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00447": {
+    "task_id": "task_00447",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00448": {
+    "task_id": "task_00448",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00449": {
+    "task_id": "task_00449",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00450": {
+    "task_id": "task_00450",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00451": {
+    "task_id": "task_00451",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00452": {
+    "task_id": "task_00452",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00453": {
+    "task_id": "task_00453",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00454": {
+    "task_id": "task_00454",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00455": {
+    "task_id": "task_00455",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00456": {
+    "task_id": "task_00456",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00457": {
+    "task_id": "task_00457",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00458": {
+    "task_id": "task_00458",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00459": {
+    "task_id": "task_00459",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00460": {
+    "task_id": "task_00460",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00461": {
+    "task_id": "task_00461",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00462": {
+    "task_id": "task_00462",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00463": {
+    "task_id": "task_00463",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00464": {
+    "task_id": "task_00464",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00465": {
+    "task_id": "task_00465",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00466": {
+    "task_id": "task_00466",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00467": {
+    "task_id": "task_00467",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00468": {
+    "task_id": "task_00468",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00469": {
+    "task_id": "task_00469",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00470": {
+    "task_id": "task_00470",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00471": {
+    "task_id": "task_00471",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00472": {
+    "task_id": "task_00472",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00473": {
+    "task_id": "task_00473",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00474": {
+    "task_id": "task_00474",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00475": {
+    "task_id": "task_00475",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00476": {
+    "task_id": "task_00476",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00477": {
+    "task_id": "task_00477",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00478": {
+    "task_id": "task_00478",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00479": {
+    "task_id": "task_00479",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00480": {
+    "task_id": "task_00480",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00481": {
+    "task_id": "task_00481",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00482": {
+    "task_id": "task_00482",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00483": {
+    "task_id": "task_00483",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00484": {
+    "task_id": "task_00484",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00485": {
+    "task_id": "task_00485",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00486": {
+    "task_id": "task_00486",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00487": {
+    "task_id": "task_00487",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00488": {
+    "task_id": "task_00488",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00489": {
+    "task_id": "task_00489",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00490": {
+    "task_id": "task_00490",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00491": {
+    "task_id": "task_00491",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00492": {
+    "task_id": "task_00492",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00493": {
+    "task_id": "task_00493",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00494": {
+    "task_id": "task_00494",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00495": {
+    "task_id": "task_00495",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00496": {
+    "task_id": "task_00496",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00497": {
+    "task_id": "task_00497",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00498": {
+    "task_id": "task_00498",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00499": {
+    "task_id": "task_00499",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00500": {
+    "task_id": "task_00500",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00501": {
+    "task_id": "task_00501",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00502": {
+    "task_id": "task_00502",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00503": {
+    "task_id": "task_00503",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00504": {
+    "task_id": "task_00504",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00505": {
+    "task_id": "task_00505",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00506": {
+    "task_id": "task_00506",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00507": {
+    "task_id": "task_00507",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00508": {
+    "task_id": "task_00508",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00509": {
+    "task_id": "task_00509",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00510": {
+    "task_id": "task_00510",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00511": {
+    "task_id": "task_00511",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00512": {
+    "task_id": "task_00512",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00513": {
+    "task_id": "task_00513",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00514": {
+    "task_id": "task_00514",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00515": {
+    "task_id": "task_00515",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00516": {
+    "task_id": "task_00516",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00517": {
+    "task_id": "task_00517",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00518": {
+    "task_id": "task_00518",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00519": {
+    "task_id": "task_00519",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00520": {
+    "task_id": "task_00520",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00521": {
+    "task_id": "task_00521",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00522": {
+    "task_id": "task_00522",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00523": {
+    "task_id": "task_00523",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00524": {
+    "task_id": "task_00524",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00525": {
+    "task_id": "task_00525",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00526": {
+    "task_id": "task_00526",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00527": {
+    "task_id": "task_00527",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00528": {
+    "task_id": "task_00528",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00529": {
+    "task_id": "task_00529",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00530": {
+    "task_id": "task_00530",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00531": {
+    "task_id": "task_00531",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00532": {
+    "task_id": "task_00532",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00533": {
+    "task_id": "task_00533",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00534": {
+    "task_id": "task_00534",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00535": {
+    "task_id": "task_00535",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00536": {
+    "task_id": "task_00536",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00537": {
+    "task_id": "task_00537",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00538": {
+    "task_id": "task_00538",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00539": {
+    "task_id": "task_00539",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00540": {
+    "task_id": "task_00540",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00541": {
+    "task_id": "task_00541",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00542": {
+    "task_id": "task_00542",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00543": {
+    "task_id": "task_00543",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00544": {
+    "task_id": "task_00544",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00545": {
+    "task_id": "task_00545",
+    "agents": [
+      "healthcare_ops_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00546": {
+    "task_id": "task_00546",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00547": {
+    "task_id": "task_00547",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00548": {
+    "task_id": "task_00548",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00549": {
+    "task_id": "task_00549",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00550": {
+    "task_id": "task_00550",
+    "agents": [
+      "governance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00551": {
+    "task_id": "task_00551",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00552": {
+    "task_id": "task_00552",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00553": {
+    "task_id": "task_00553",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00554": {
+    "task_id": "task_00554",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00555": {
+    "task_id": "task_00555",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00556": {
+    "task_id": "task_00556",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00557": {
+    "task_id": "task_00557",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00558": {
+    "task_id": "task_00558",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00559": {
+    "task_id": "task_00559",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00560": {
+    "task_id": "task_00560",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00561": {
+    "task_id": "task_00561",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00562": {
+    "task_id": "task_00562",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00563": {
+    "task_id": "task_00563",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00564": {
+    "task_id": "task_00564",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00565": {
+    "task_id": "task_00565",
+    "agents": [
+      "finance_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00566": {
+    "task_id": "task_00566",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00567": {
+    "task_id": "task_00567",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00568": {
+    "task_id": "task_00568",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00569": {
+    "task_id": "task_00569",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00570": {
+    "task_id": "task_00570",
+    "agents": [
+      "data_quality_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00571": {
+    "task_id": "task_00571",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00572": {
+    "task_id": "task_00572",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00573": {
+    "task_id": "task_00573",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00574": {
+    "task_id": "task_00574",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00575": {
+    "task_id": "task_00575",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00576": {
+    "task_id": "task_00576",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00577": {
+    "task_id": "task_00577",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00578": {
+    "task_id": "task_00578",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00579": {
+    "task_id": "task_00579",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00580": {
+    "task_id": "task_00580",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00581": {
+    "task_id": "task_00581",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00582": {
+    "task_id": "task_00582",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00583": {
+    "task_id": "task_00583",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00584": {
+    "task_id": "task_00584",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00585": {
+    "task_id": "task_00585",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00586": {
+    "task_id": "task_00586",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00587": {
+    "task_id": "task_00587",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00588": {
+    "task_id": "task_00588",
+    "agents": [
+      "executive_agent",
+      ""
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00589": {
+    "task_id": "task_00589",
+    "agents": [
+      "finance_agent",
+      ""
+    ],
+    "tools": [
+      "query_revenue_anomalies",
+      "calculate_margin_impact"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00590": {
+    "task_id": "task_00590",
+    "agents": [
+      "fraud_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "score_transaction_risk",
+      "check_identity_graph"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00591": {
+    "task_id": "task_00591",
+    "agents": [
+      "support_agent",
+      "fraud_agent"
+    ],
+    "tools": [
+      "summarize_support_case",
+      "recommend_refund"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00592": {
+    "task_id": "task_00592",
+    "agents": [
+      "supply_chain_agent",
+      "finance_agent"
+    ],
+    "tools": [
+      "check_inventory_risk",
+      "simulate_reroute"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00593": {
+    "task_id": "task_00593",
+    "agents": [
+      "healthcare_ops_agent",
+      ""
+    ],
+    "tools": [
+      "validate_claim_documents",
+      "check_policy_eligibility"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00594": {
+    "task_id": "task_00594",
+    "agents": [
+      "data_quality_agent",
+      ""
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00595": {
+    "task_id": "task_00595",
+    "agents": [
+      "reliability_agent",
+      "data_quality_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00596": {
+    "task_id": "task_00596",
+    "agents": [
+      "rag_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "retrieve_documents",
+      "validate_citations"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00597": {
+    "task_id": "task_00597",
+    "agents": [
+      "metrics_agent",
+      "executive_agent"
+    ],
+    "tools": [
+      "check_metric_definition",
+      "compare_metric_versions"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00598": {
+    "task_id": "task_00598",
+    "agents": [
+      "governance_agent",
+      ""
+    ],
+    "tools": [
+      "check_access_policy",
+      "detect_prompt_injection"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00599": {
+    "task_id": "task_00599",
+    "agents": [
+      "security_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      ""
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  },
+  "decision_00600": {
+    "task_id": "task_00600",
+    "agents": [
+      "executive_agent",
+      "governance_agent"
+    ],
+    "tools": [
+      "generate_executive_briefing",
+      "summarize_cross_domain_risk"
+    ],
+    "reason": "Decision selected by confidence-risk gate and tool policy evaluation."
+  }
+}

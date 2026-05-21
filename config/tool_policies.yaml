@@ -1,0 +1,13 @@
+policies:
+  - agent can only call allowed tools
+  - high-risk tools require approval
+  - irreversible tools require approval
+  - cross-domain tools require governance check
+  - prompt injection blocks all tool execution
+  - sensitive data tools require masking
+  - executive tools can summarize but not execute operational actions
+  - fraud freeze actions require shadow mode or approval
+  - healthcare sensitive actions require human review
+  - metric certification changes require metric owner approval
+  - data platform backfills require reliability agent approval
+

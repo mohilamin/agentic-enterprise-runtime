@@ -1,0 +1,2004 @@
+{
+  "edges": [
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00002"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00003"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00004"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00005"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00007"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00008"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00009"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00010"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00011"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00014"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00015"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00016"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00019"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00020"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00021"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00023"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00025"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00026"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00027"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00028"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00030"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00031"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00032"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00033"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00035"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00038"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00039"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00040"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00043"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00044"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00045"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00047"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00050"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00051"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00052"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00055"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00056"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00057"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00059"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00060"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00062"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00063"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00064"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00065"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00067"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00068"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00069"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00070"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00071"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00074"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00075"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00076"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00079"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00080"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00081"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00083"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00085"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00086"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00087"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00088"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00090"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00091"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00092"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00093"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00095"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00098"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00099"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00100"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00103"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00104"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00105"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00107"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00110"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00111"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00112"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00115"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00116"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00117"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00119"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00120"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00122"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00123"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00124"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00125"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00127"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00128"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00129"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00130"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00131"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00134"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00135"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00136"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00139"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00140"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00141"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00143"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00145"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00146"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00147"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00148"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00150"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00151"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00152"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00153"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00155"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00158"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00159"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00160"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00163"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00164"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00165"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00167"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00170"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00171"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00172"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00175"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00176"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00177"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00179"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00180"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00182"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00183"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00184"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00185"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00187"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00188"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00189"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00190"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00191"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00194"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00195"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00196"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00199"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00200"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00201"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00203"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00205"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00206"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00207"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00208"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00210"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00211"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00212"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00213"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00215"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00218"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00219"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00220"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00223"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00224"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00225"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00227"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00230"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00231"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00232"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00235"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00236"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00237"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00239"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00240"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00242"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00243"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00244"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00245"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00247"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00248"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00249"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00250"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00251"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00254"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00255"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00256"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00259"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00260"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00261"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00263"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00265"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00266"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00267"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00268"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00270"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00271"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00272"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00273"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00275"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00278"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00279"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00280"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00283"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00284"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00285"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00287"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00290"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00291"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00292"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00295"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00296"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00297"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00299"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00300"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00302"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00303"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00304"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00305"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00307"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00308"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00309"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00310"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00311"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00314"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00315"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00316"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00319"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00320"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00321"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00323"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00325"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00326"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00327"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00328"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00330"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00331"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00332"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00333"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00335"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00338"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00339"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00340"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00343"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00344"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00345"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00347"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00350"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00351"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00352"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00355"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00356"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00357"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00359"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00360"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00362"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00363"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00364"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00365"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00367"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00368"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00369"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00370"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00371"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00374"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00375"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00376"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00379"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00380"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00381"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00383"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00385"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00386"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00387"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00388"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00390"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00391"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00392"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00393"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00395"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00398"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00399"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00400"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00403"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00404"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00405"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00407"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00410"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00411"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00412"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00415"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00416"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00417"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00419"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00420"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00422"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00423"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00424"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00425"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00427"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00428"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00429"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00430"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00431"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00434"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00435"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00436"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00439"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00440"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00441"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00443"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00445"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00446"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00447"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00448"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00450"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00451"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00452"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00453"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00455"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00458"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00459"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00460"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00463"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00464"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00465"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00467"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00470"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00471"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00472"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00475"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00476"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00477"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00479"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00480"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00482"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00483"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00484"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00485"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00487"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00488"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00489"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00490"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00491"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00494"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00495"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00496"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00499"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00500"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00501"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00503"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00505"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00506"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00507"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00508"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00510"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00511"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00512"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00513"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00515"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00518"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00519"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00520"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00523"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00524"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00525"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00527"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00530"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00531"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00532"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00535"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00536"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00537"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00539"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00540"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00542"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00543"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00544"
+    },
+    {
+      "source": "healthcare_ops_agent",
+      "target": "governance_agent",
+      "task_id": "task_00545"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00547"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00548"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00549"
+    },
+    {
+      "source": "governance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00550"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00551"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00554"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00555"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00556"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00559"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00560"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00561"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00563"
+    },
+    {
+      "source": "finance_agent",
+      "target": "governance_agent",
+      "task_id": "task_00565"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00566"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00567"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00568"
+    },
+    {
+      "source": "data_quality_agent",
+      "target": "governance_agent",
+      "task_id": "task_00570"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00571"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00572"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00573"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00575"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00578"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00579"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00580"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00583"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00584"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00585"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00587"
+    },
+    {
+      "source": "fraud_agent",
+      "target": "governance_agent",
+      "task_id": "task_00590"
+    },
+    {
+      "source": "support_agent",
+      "target": "fraud_agent",
+      "task_id": "task_00591"
+    },
+    {
+      "source": "supply_chain_agent",
+      "target": "finance_agent",
+      "task_id": "task_00592"
+    },
+    {
+      "source": "reliability_agent",
+      "target": "data_quality_agent",
+      "task_id": "task_00595"
+    },
+    {
+      "source": "rag_agent",
+      "target": "governance_agent",
+      "task_id": "task_00596"
+    },
+    {
+      "source": "metrics_agent",
+      "target": "executive_agent",
+      "task_id": "task_00597"
+    },
+    {
+      "source": "security_agent",
+      "target": "governance_agent",
+      "task_id": "task_00599"
+    },
+    {
+      "source": "executive_agent",
+      "target": "governance_agent",
+      "task_id": "task_00600"
+    }
+  ]
+}

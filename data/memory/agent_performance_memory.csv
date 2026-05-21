@@ -1,0 +1,13 @@
+agent_id,success_rate,tool_failure_rate
+finance_agent,0.91,0.02
+fraud_agent,0.9,0.022
+support_agent,0.89,0.024
+supply_chain_agent,0.88,0.026000000000000002
+healthcare_ops_agent,0.87,0.028
+data_quality_agent,0.86,0.03
+reliability_agent,0.8500000000000001,0.032
+rag_agent,0.8400000000000001,0.034
+metrics_agent,0.8300000000000001,0.036000000000000004
+governance_agent,0.8200000000000001,0.038000000000000006
+security_agent,0.81,0.04
+executive_agent,0.8,0.041999999999999996

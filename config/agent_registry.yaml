@@ -1,0 +1,14 @@
+agents:
+  - finance_agent
+  - fraud_agent
+  - support_agent
+  - supply_chain_agent
+  - healthcare_ops_agent
+  - data_quality_agent
+  - reliability_agent
+  - rag_agent
+  - metrics_agent
+  - governance_agent
+  - security_agent
+  - executive_agent
+

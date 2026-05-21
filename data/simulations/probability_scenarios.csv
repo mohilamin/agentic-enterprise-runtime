@@ -1,0 +1,9 @@
+scenario_id,domain,scenario_name,base_incident_probability,probability_of_false_positive,probability_of_false_negative,estimated_cost_of_action,estimated_cost_of_inaction,business_impact_score,regulatory_risk_score,customer_impact_score,reversibility_score,blast_radius_score,recommended_default_strategy
+scenario_001,fraud,fraud_false_positive,0.095,0.05,0.062,1000,3200,51,32,36,85,36,step-up authentication before account freeze
+scenario_002,supply_chain,supply_chain_reroute,0.11,0.06,0.074,2000,6400,57,39,42,78,44,simulate reroute and check finance margin
+scenario_003,healthcare_ops,healthcare_claim_triage,0.125,0.07,0.086,3000,9600,63,46,48,71,52,route sensitive cases to human review
+scenario_004,rag,rag_stale_document_risk,0.14,0.08,0.098,4000,12800,69,53,54,64,60,retrieve newer evidence before answer
+scenario_005,metrics,metric_conflict,0.155,0.09,0.11,5000,16000,75,60,60,57,68,freeze uncertified metric and route to owner
+scenario_006,data_quality,data_quality_incident,0.17,0.1,0.122,6000,19200,81,67,66,50,76,quarantine affected partition only
+scenario_007,security,prompt_injection_attempt,0.185,0.11,0.134,7000,22400,87,74,72,43,84,isolate prompt and block tool execution
+scenario_008,executive,executive_cross_domain_briefing,0.2,0.12,0.146,8000,25600,93,81,78,36,92,include dissenting views and unresolved risks

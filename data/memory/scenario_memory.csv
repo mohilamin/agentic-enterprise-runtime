@@ -1,0 +1,3 @@
+scenario_name,prior_escalations,recommended_control
+prompt_injection_attempt,12,block_tools
+fraud_false_positive,9,step_up_auth

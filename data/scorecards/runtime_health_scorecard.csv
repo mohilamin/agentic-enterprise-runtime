@@ -1,0 +1,2 @@
+task_resolution_rate,autonomous_execution_rate,human_escalation_rate,blocked_action_rate,policy_violation_rate,prompt_attack_block_rate,average_confidence_score,average_risk_score,approval_queue_volume,handoff_acceptance_rate,conflict_resolution_rate,tool_permission_pass_rate,unsafe_tool_block_rate,overall_runtime_safety_score
+1.0,0.1633,0.5867,0.25,0.1429,0.3846,0.8626,79.0,352.0,1.0,1.0,0.8571,0.1429,89.4

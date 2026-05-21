@@ -1,0 +1,3002 @@
+{
+  "task_00001": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00002": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00003": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00004": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00005": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00006": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00007": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00008": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00009": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00010": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00011": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00012": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00013": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00014": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00015": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00016": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00017": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00018": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00019": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00020": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00021": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00022": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00023": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00024": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00025": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00026": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00027": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00028": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00029": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00030": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00031": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00032": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00033": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00034": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00035": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00036": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00037": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00038": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00039": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00040": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00041": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00042": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00043": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00044": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00045": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00046": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00047": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00048": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00049": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00050": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00051": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00052": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00053": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00054": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00055": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00056": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00057": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00058": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00059": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00060": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00061": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00062": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00063": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00064": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00065": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00066": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00067": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00068": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00069": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00070": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00071": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00072": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00073": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00074": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00075": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00076": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00077": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00078": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00079": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00080": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00081": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00082": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00083": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00084": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00085": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00086": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00087": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00088": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00089": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00090": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00091": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00092": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00093": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00094": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00095": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00096": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00097": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00098": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00099": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00100": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00101": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00102": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00103": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00104": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00105": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00106": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00107": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00108": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00109": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00110": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00111": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00112": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00113": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00114": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00115": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00116": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00117": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00118": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00119": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00120": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00121": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00122": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00123": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00124": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00125": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00126": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00127": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00128": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00129": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00130": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00131": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00132": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00133": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00134": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00135": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00136": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00137": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00138": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00139": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00140": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00141": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00142": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00143": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00144": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00145": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00146": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00147": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00148": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00149": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00150": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00151": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00152": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00153": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00154": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00155": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00156": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00157": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00158": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00159": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00160": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00161": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00162": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00163": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00164": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00165": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00166": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00167": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00168": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00169": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00170": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00171": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00172": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00173": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00174": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00175": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00176": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00177": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00178": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00179": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00180": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00181": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00182": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00183": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00184": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00185": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00186": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00187": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00188": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00189": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00190": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00191": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00192": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00193": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00194": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00195": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00196": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00197": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00198": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00199": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00200": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00201": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00202": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00203": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00204": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00205": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00206": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00207": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00208": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00209": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00210": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00211": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00212": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00213": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00214": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00215": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00216": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00217": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00218": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00219": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00220": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00221": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00222": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00223": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00224": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00225": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00226": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00227": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00228": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00229": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00230": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00231": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00232": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00233": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00234": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00235": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00236": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00237": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00238": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00239": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00240": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00241": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00242": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00243": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00244": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00245": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00246": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00247": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00248": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00249": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00250": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00251": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00252": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00253": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00254": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00255": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00256": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00257": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00258": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00259": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00260": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00261": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00262": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00263": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00264": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00265": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00266": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00267": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00268": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00269": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00270": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00271": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00272": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00273": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00274": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00275": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00276": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00277": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00278": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00279": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00280": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00281": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00282": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00283": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00284": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00285": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00286": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00287": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00288": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00289": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00290": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00291": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00292": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00293": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00294": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00295": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00296": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00297": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00298": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00299": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00300": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00301": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00302": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00303": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00304": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00305": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00306": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00307": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00308": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00309": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00310": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00311": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00312": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00313": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00314": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00315": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00316": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00317": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00318": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00319": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00320": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00321": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00322": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00323": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00324": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00325": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00326": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00327": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00328": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00329": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00330": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00331": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00332": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00333": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00334": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00335": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00336": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00337": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00338": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00339": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00340": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00341": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00342": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00343": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00344": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00345": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00346": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00347": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00348": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00349": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00350": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00351": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00352": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00353": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00354": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00355": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00356": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00357": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00358": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00359": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00360": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00361": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00362": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00363": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00364": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00365": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00366": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00367": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00368": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00369": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00370": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00371": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00372": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00373": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00374": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00375": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00376": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00377": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00378": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00379": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00380": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00381": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00382": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00383": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00384": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00385": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00386": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00387": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00388": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00389": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00390": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00391": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00392": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00393": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00394": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00395": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00396": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00397": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00398": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00399": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00400": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00401": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00402": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00403": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00404": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00405": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00406": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00407": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00408": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00409": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00410": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00411": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00412": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00413": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00414": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00415": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00416": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00417": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00418": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00419": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00420": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00421": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00422": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00423": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00424": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00425": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00426": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00427": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00428": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00429": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00430": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00431": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00432": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00433": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00434": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00435": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00436": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00437": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00438": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00439": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00440": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00441": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00442": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00443": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00444": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00445": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00446": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00447": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00448": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00449": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00450": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00451": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00452": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00453": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00454": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00455": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00456": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00457": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00458": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00459": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00460": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00461": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00462": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00463": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00464": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00465": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00466": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00467": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00468": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00469": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00470": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00471": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00472": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00473": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00474": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00475": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00476": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00477": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00478": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00479": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00480": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00481": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00482": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00483": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00484": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00485": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00486": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00487": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00488": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00489": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00490": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00491": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00492": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00493": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00494": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00495": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00496": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00497": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00498": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00499": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00500": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00501": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00502": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00503": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00504": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00505": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00506": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00507": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00508": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00509": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00510": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00511": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00512": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00513": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00514": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00515": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00516": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00517": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00518": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00519": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00520": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00521": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00522": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00523": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00524": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00525": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00526": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00527": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00528": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00529": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00530": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00531": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00532": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00533": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00534": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00535": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00536": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00537": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00538": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00539": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00540": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00541": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00542": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00543": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00544": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00545": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00546": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00547": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00548": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00549": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00550": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00551": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00552": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00553": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00554": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00555": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00556": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00557": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00558": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00559": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00560": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00561": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00562": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00563": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00564": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00565": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00566": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00567": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00568": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00569": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00570": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00571": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00572": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00573": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00574": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00575": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00576": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00577": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00578": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00579": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00580": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00581": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00582": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00583": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00584": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00585": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00586": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00587": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00588": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00589": {
+    "expected_primary_agent": "finance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00590": {
+    "expected_primary_agent": "fraud_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00591": {
+    "expected_primary_agent": "support_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00592": {
+    "expected_primary_agent": "supply_chain_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00593": {
+    "expected_primary_agent": "healthcare_ops_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00594": {
+    "expected_primary_agent": "data_quality_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00595": {
+    "expected_primary_agent": "reliability_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "medium"
+  },
+  "task_00596": {
+    "expected_primary_agent": "rag_agent",
+    "expected_decision": "execute_shadow_mode",
+    "expected_risk_level": "medium"
+  },
+  "task_00597": {
+    "expected_primary_agent": "metrics_agent",
+    "expected_decision": "execute",
+    "expected_risk_level": "low"
+  },
+  "task_00598": {
+    "expected_primary_agent": "governance_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  },
+  "task_00599": {
+    "expected_primary_agent": "security_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "high"
+  },
+  "task_00600": {
+    "expected_primary_agent": "executive_agent",
+    "expected_decision": "require_human_approval",
+    "expected_risk_level": "critical"
+  }
+}
