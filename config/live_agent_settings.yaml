@@ -1,0 +1,9 @@
+live_agent_mode: false
+hybrid_mode: false
+provider: optional_openai_agents_sdk
+require_api_key: false
+fallback_to_deterministic: true
+max_live_agent_steps: 5
+allow_live_tool_execution: false
+deterministic_policy_enforced: true
+

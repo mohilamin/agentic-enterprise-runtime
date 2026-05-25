@@ -1,0 +1,2 @@
+trace_completeness_score,evaluation_score,red_team_detection_rate,approval_workflow_health_score,live_agent_adapter_available,deterministic_fallback_status,flagship_demo_available,total_tests_expected_minimum,unsafe_action_block_rate,decision_lineage_completeness,deterministic_fallback_health,live_agent_adapter_readiness,flagship_demo_readiness,overall_v02_runtime_maturity_score
+0.99,0.9805,1.0,0.88,False,deterministic_fallback,True,115,1.0,1.0,1.0,0.5,1.0,0.9751

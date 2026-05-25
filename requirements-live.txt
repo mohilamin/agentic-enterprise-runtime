@@ -1,0 +1,4 @@
+# Optional live-agent dependencies.
+# V0.2 uses dynamic imports and deterministic fallback by default.
+# Install live framework packages here only when experimenting outside tests.
+

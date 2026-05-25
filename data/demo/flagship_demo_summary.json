@@ -1,0 +1,37 @@
+{
+  "scenario_name": "support_refund_with_fraud_and_prompt_injection",
+  "agents_involved": [
+    "support_agent",
+    "fraud_agent",
+    "security_agent",
+    "governance_agent",
+    "executive_agent"
+  ],
+  "tools_requested": [
+    "recommend_refund",
+    "score_transaction_risk",
+    "freeze_account_shadow",
+    "detect_prompt_injection",
+    "request_human_approval"
+  ],
+  "tools_blocked": [
+    "freeze_account_shadow"
+  ],
+  "handoffs_created": 3,
+  "conflicts_detected": 1,
+  "red_team_attempt_detected": true,
+  "final_decision": "require_human_approval",
+  "approval_required": true,
+  "risk_score": 88,
+  "confidence_score": 0.84,
+  "evidence_files": [
+    "data/demo/flagship_demo_decision_path.csv",
+    "data/traces/agent_trace_events.jsonl",
+    "data/audit/agent_action_history.csv"
+  ],
+  "talking_points": [
+    "Deterministic policy remains authoritative.",
+    "Prompt injection is contained before tool execution.",
+    "High-impact action is staged for approval."
+  ]
+}

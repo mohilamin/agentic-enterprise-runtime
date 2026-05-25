@@ -1,0 +1,13 @@
+{
+  "total_traces": 600,
+  "total_spans": 3380,
+  "task_count": 600,
+  "tool_call_count": 1050,
+  "handoff_count": 400,
+  "guardrail_trigger_count": 130,
+  "approval_required_count": 352,
+  "blocked_action_count": 150,
+  "average_trace_duration_ms": 303.0,
+  "longest_trace_task_id": "task_00600",
+  "trace_completeness_score": 0.99
+}

@@ -1,0 +1,131 @@
+incident_id,task_id,incident_type,severity,policy_reason,recommended_action,span_type
+safety_00001,task_00011,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00002,task_00023,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00003,task_00035,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00004,task_00047,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00005,task_00059,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00006,task_00071,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00007,task_00083,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00008,task_00095,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00009,task_00107,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00010,task_00119,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00011,task_00131,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00012,task_00143,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00013,task_00155,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00014,task_00167,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00015,task_00179,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00016,task_00191,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00017,task_00203,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00018,task_00215,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00019,task_00227,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00020,task_00239,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00021,task_00251,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00022,task_00263,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00023,task_00275,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00024,task_00287,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00025,task_00299,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00026,task_00311,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00027,task_00323,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00028,task_00335,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00029,task_00347,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00030,task_00359,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00031,task_00371,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00032,task_00383,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00033,task_00395,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00034,task_00407,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00035,task_00419,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00036,task_00431,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00037,task_00443,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00038,task_00455,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00039,task_00467,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00040,task_00479,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00041,task_00491,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00042,task_00503,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00043,task_00515,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00044,task_00527,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00045,task_00539,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00046,task_00551,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00047,task_00563,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00048,task_00575,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00049,task_00587,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00050,task_00599,prompt_injection,high,prompt attack contained before tool execution,block action and create governance review,guardrail
+safety_00051,task_00006,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00052,task_00007,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00053,task_00011,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00054,task_00018,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00055,task_00019,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00056,task_00023,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00057,task_00030,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00058,task_00031,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00059,task_00035,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00060,task_00042,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00061,task_00043,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00062,task_00047,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00063,task_00054,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00064,task_00055,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00065,task_00059,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00066,task_00066,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00067,task_00067,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00068,task_00071,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00069,task_00078,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00070,task_00079,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00071,task_00083,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00072,task_00090,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00073,task_00091,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00074,task_00095,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00075,task_00102,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00076,task_00103,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00077,task_00107,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00078,task_00114,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00079,task_00115,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00080,task_00119,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00081,task_00126,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00082,task_00127,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00083,task_00131,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00084,task_00138,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00085,task_00139,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00086,task_00143,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00087,task_00150,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00088,task_00151,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00089,task_00155,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00090,task_00162,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00091,task_00163,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00092,task_00167,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00093,task_00174,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00094,task_00175,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00095,task_00179,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00096,task_00186,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00097,task_00187,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00098,task_00191,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00099,task_00198,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00100,task_00199,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00101,task_00203,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00102,task_00210,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00103,task_00211,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00104,task_00215,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00105,task_00222,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00106,task_00223,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00107,task_00227,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00108,task_00234,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00109,task_00235,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00110,task_00239,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00111,task_00246,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00112,task_00247,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00113,task_00251,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00114,task_00258,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00115,task_00259,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00116,task_00263,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00117,task_00270,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00118,task_00271,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00119,task_00275,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00120,task_00282,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00121,task_00283,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00122,task_00287,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00123,task_00294,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00124,task_00295,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00125,task_00299,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00126,task_00306,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00127,task_00307,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00128,task_00311,unsafe_tool_access,medium,prompt_injection_block,deny tool call and log audit event,guardrail
+safety_00129,task_00318,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail
+safety_00130,task_00319,unsafe_tool_access,medium,least_privilege_and_approval_policy,deny tool call and log audit event,guardrail

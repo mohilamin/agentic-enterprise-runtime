@@ -1,0 +1,8 @@
+step,agent,event,tool,decision
+1,support_agent,refund request arrives,triage,continue
+2,support_agent,refund proposed,recommend_refund,continue
+3,fraud_agent,fraud signal appears,score_transaction_risk,continue
+4,fraud_agent,shadow freeze considered,freeze_account_shadow,continue
+5,security_agent,prompt injection detected,detect_prompt_injection,continue
+6,governance_agent,policy review requires approval,request_human_approval,requires_human_approval
+7,executive_agent,briefing generated,generate_executive_briefing,continue

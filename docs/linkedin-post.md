@@ -6,3 +6,16 @@ It is not a chatbot or single-agent demo. It simulates enterprise infrastructure
 
 GitHub: `<repo link>`
 
+## V0.2 Update
+
+I upgraded my Agentic Enterprise Runtime with tracing, evaluations, red-team scenarios, and optional live-agent adapters.
+
+V0.2 adds:
+- optional live-agent framework adapter with deterministic fallback
+- trace-style observability for tasks, tools, handoffs, and guardrails
+- repeatable evaluation harness for routing, policy, approvals, lineage, and red-team detection
+- adversarial scenario pack for prompt injection, tool abuse, approval bypass, and unsafe autonomous actions
+- interactive approval workflow with decision history and SLA reporting
+- flagship demo mode for a support refund workflow involving fraud, security, governance, and executive agents
+
+The important design choice: live-agent recommendations are advisory. The deterministic governance runtime remains authoritative.

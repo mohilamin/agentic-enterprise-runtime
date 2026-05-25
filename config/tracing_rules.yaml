@@ -1,0 +1,21 @@
+trace_enabled: true
+trace_outputs:
+  - data/traces/agent_trace_events.jsonl
+  - data/traces/tool_call_spans.csv
+  - data/traces/handoff_spans.csv
+  - data/traces/guardrail_spans.csv
+  - data/traces/runtime_trace_summary.json
+span_types:
+  - task_received
+  - route_selected
+  - agent_evaluated
+  - tool_requested
+  - policy_checked
+  - tool_simulated
+  - handoff_created
+  - conflict_detected
+  - red_team_detected
+  - approval_required
+  - final_decision_created
+  - briefing_generated
+

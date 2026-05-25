@@ -1,0 +1,2 @@
+red_team_scenario_count,red_team_detection_rate,unsafe_action_block_rate,incident_creation_rate,red_team_score
+15,1.0,1.0,1.0,100.0

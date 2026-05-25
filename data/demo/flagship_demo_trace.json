@@ -1,0 +1,54 @@
+{
+  "scenario": "support_refund_with_fraud_and_prompt_injection",
+  "steps": [
+    {
+      "step": "1",
+      "agent": "support_agent",
+      "event": "refund request arrives",
+      "tool": "triage",
+      "decision": "continue"
+    },
+    {
+      "step": "2",
+      "agent": "support_agent",
+      "event": "refund proposed",
+      "tool": "recommend_refund",
+      "decision": "continue"
+    },
+    {
+      "step": "3",
+      "agent": "fraud_agent",
+      "event": "fraud signal appears",
+      "tool": "score_transaction_risk",
+      "decision": "continue"
+    },
+    {
+      "step": "4",
+      "agent": "fraud_agent",
+      "event": "shadow freeze considered",
+      "tool": "freeze_account_shadow",
+      "decision": "continue"
+    },
+    {
+      "step": "5",
+      "agent": "security_agent",
+      "event": "prompt injection detected",
+      "tool": "detect_prompt_injection",
+      "decision": "continue"
+    },
+    {
+      "step": "6",
+      "agent": "governance_agent",
+      "event": "policy review requires approval",
+      "tool": "request_human_approval",
+      "decision": "requires_human_approval"
+    },
+    {
+      "step": "7",
+      "agent": "executive_agent",
+      "event": "briefing generated",
+      "tool": "generate_executive_briefing",
+      "decision": "continue"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+flagship:
+  scenario_name: support_refund_with_fraud_and_prompt_injection
+  flow:
+    - support refund request arrives
+    - support_agent triages case
+    - fraud signal appears
+    - fraud_agent reviews account freeze risk
+    - governance_agent checks policy
+    - security_agent detects prompt injection
+    - conflict arbitration runs
+    - final decision requires human approval
+    - executive briefing is generated
+    - audit trail, traces, and scorecards update
+

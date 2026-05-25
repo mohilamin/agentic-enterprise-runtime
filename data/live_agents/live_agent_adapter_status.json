@@ -1,0 +1,10 @@
+{
+  "mode": "deterministic_fallback",
+  "available": false,
+  "reason": "optional live-agent dependency not installed or API key missing",
+  "live_agent_mode": false,
+  "hybrid_mode": false,
+  "deterministic_policy_enforced": true,
+  "allow_live_tool_execution": false,
+  "fallback_to_deterministic": true
+}

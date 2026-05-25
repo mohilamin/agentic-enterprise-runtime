@@ -20,6 +20,11 @@ INCIDENTS = DATA / "incidents"
 BRIEFINGS = DATA / "briefings"
 WAREHOUSE = DATA / "warehouse"
 SCORECARDS = DATA / "scorecards"
+TRACES = DATA / "traces"
+EVALUATIONS = DATA / "evaluations"
+RED_TEAM = DATA / "red_team"
+DEMO = DATA / "demo"
+LIVE_AGENTS = DATA / "live_agents"
 
 
 def ensure_dirs() -> None:
@@ -41,6 +46,10 @@ def ensure_dirs() -> None:
         BRIEFINGS,
         WAREHOUSE,
         SCORECARDS,
+        TRACES,
+        EVALUATIONS,
+        RED_TEAM,
+        DEMO,
+        LIVE_AGENTS,
     ]:
         path.mkdir(parents=True, exist_ok=True)
-

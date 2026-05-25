@@ -1,0 +1,8 @@
+{
+  "approval_workflow_health_score": 88.0,
+  "approval_queue_count": 352,
+  "approval_decision_count": 80,
+  "approval_sla_hours": 24,
+  "pending_approval_count": 272,
+  "approval_sla_score": 0.88
+}

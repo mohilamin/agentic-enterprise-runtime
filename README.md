@@ -33,7 +33,21 @@ Without a governed runtime, multi-agent systems can become untraceable, over-per
 
 ## Why This Is Not a Chatbot or Single-Agent Demo
 
-This repo does not call an LLM API. V0.1 uses deterministic synthetic agents so reviewers can inspect the orchestration, policy, safety, and audit logic directly. The focus is infrastructure: registries, tool permissions, routing, handoffs, conflict arbitration, simulation, approval queues, memory, audit trails, and scorecards.
+This repo does not require an LLM API. The deterministic runtime remains the system of record so reviewers can inspect orchestration, policy, safety, and audit logic directly. V0.2 adds optional live-agent adapters, but live recommendations are advisory only and cannot bypass policy enforcement, audit logging, approval workflow, or safety checks.
+
+## V0.2 Upgrade
+
+V0.2 turns the V0.1 governed deterministic runtime into a more production-shaped flagship system:
+
+- Optional live-agent adapter with deterministic fallback by default.
+- Trace-style observability for tasks, tools, handoffs, guardrails, approvals, and final decisions.
+- Repeatable offline evaluation harness for routing, policy, handoffs, conflicts, approvals, red-team detection, lineage, and audit completeness.
+- Red-team scenario pack covering prompt injection, tool abuse, approval bypass, memory contamination, confidence without evidence, and unsafe irreversible actions.
+- Interactive approval workflow with decision history, action escrow status, and SLA reporting.
+- Flagship demo mode for a support refund scenario with fraud review and prompt injection containment.
+- V0.2 scorecards for runtime maturity, observability, evaluation, red-team, approvals, and live-agent readiness.
+
+Deterministic mode is the default. No API key is required. Tests do not call external APIs. Live-agent mode is optional, disabled by default, and gracefully falls back when optional dependencies or credentials are missing.
 
 ## Architecture
 
@@ -58,6 +72,9 @@ flowchart LR
     Q --> R["DuckDB"]
     R --> S["FastAPI"]
     R --> T["Streamlit"]
+    M --> U["Trace Recorder"]
+    U --> V["Evaluation Harness"]
+    V --> W["Red-Team Reports"]
 ```
 
 ## Agent Runtime Flow
@@ -161,6 +178,24 @@ flowchart LR
 - `agent_safety_report.json/csv`
 - `handoff_quality_report.json/csv`
 - `conflict_resolution_report.json/csv`
+- `v02_runtime_upgrade_summary.json/csv`
+- `red_team_scorecard.json/csv`
+- `evaluation_scorecard.json/csv`
+- `trace_observability_scorecard.json/csv`
+- `approval_workflow_scorecard.json/csv`
+- `live_agent_adapter_scorecard.json/csv`
+
+## Flagship Demo
+
+Run the flagship multi-agent scenario:
+
+```bash
+python -m src.demo.run_flagship_demo
+```
+
+Scenario: `support_refund_with_fraud_and_prompt_injection`
+
+The demo routes a refund task through support, fraud, security, governance, and executive agents. It detects prompt injection, blocks direct account freeze, stages the action for human approval, and writes trace, audit, briefing, and scorecard evidence.
 
 ## Quickstart
 
@@ -174,6 +209,7 @@ python -m src.data_generation.generate_domain_data
 python -m src.data_generation.generate_tasks
 python -m src.data_generation.generate_probability_scenarios
 python -m src.pipeline.run_all
+python -m src.demo.run_flagship_demo
 python -m pytest
 python -m ruff check .
 ```
@@ -184,7 +220,7 @@ python -m ruff check .
 uvicorn src.api.main:app --reload
 ```
 
-Endpoints include `/health`, `/runtime-summary`, `/agents`, `/tools`, `/tasks`, `/decisions`, `/handoffs`, `/conflicts`, `/approval-queue`, `/audit-log`, `/scorecards`, `/briefings`, `/route-task`, `/evaluate-tool-access`, `/simulate-scenario`, `/resolve-conflict`, and `/submit-approval-decision`.
+Endpoints include `/health`, `/runtime-summary`, `/agents`, `/tools`, `/tasks`, `/decisions`, `/handoffs`, `/conflicts`, `/approval-queue`, `/approval-history`, `/audit-log`, `/scorecards`, `/briefings`, `/traces`, `/traces/summary`, `/evaluations`, `/red-team-scenarios`, `/red-team-results`, `/live-agent-status`, `/flagship-demo-summary`, `/v02-summary`, `/route-task`, `/evaluate-tool-access`, `/simulate-scenario`, `/resolve-conflict`, `/submit-approval-decision`, `/run-flagship-demo`, `/run-red-team-scenario`, and `/run-evaluation-suite`.
 
 ## Dashboard
 
@@ -192,17 +228,18 @@ Endpoints include `/health`, `/runtime-summary`, `/agents`, `/tools`, `/tasks`, 
 streamlit run src/dashboard/app.py
 ```
 
-Dashboard sections include Executive Overview, Agent Registry, Tool Registry, Task Routing, Multi-Agent Handoffs, Tool Governance, Probability Scenarios, Agent Conflicts, Human Approval Queue, Safety Incidents, Decision Lineage, Audit Trail, Runtime Scorecards, and Executive Briefings.
+Dashboard sections include Executive Overview, V0.2 Runtime Upgrade Overview, Trace Explorer, Evaluation Harness, Red-Team Scenario Results, Live Agent Adapter Status, Approval Workflow, Flagship Demo, Guardrail / Policy Span View, Decision Lineage Completeness, Runtime Regression Summary, Agent Registry, Tool Registry, Task Routing, Multi-Agent Handoffs, Tool Governance, Probability Scenarios, Agent Conflicts, Human Approval Queue, Safety Incidents, Audit Trail, Runtime Scorecards, and Executive Briefings.
 
 ## Validation
 
-V0.1 target:
+Current validation target:
 
 - domain data generation passes
 - task generation passes
 - probability scenario generation passes
 - full pipeline passes
-- at least 70 tests pass
+- flagship demo command passes
+- at least 115 tests pass
 - ruff passes
 - API and dashboard launch locally
 
@@ -210,6 +247,7 @@ V0.1 target:
 
 - synthetic data only
 - deterministic agents instead of live LLM agents
+- optional live-agent adapter is conceptual unless a live framework dependency and credentials are supplied
 - local DuckDB instead of enterprise warehouse
 - simulated tools instead of real business systems
 - no cloud deployment
@@ -217,6 +255,8 @@ V0.1 target:
 - no real identity provider
 - no live approval system
 - no real OpenAI/Anthropic/LangGraph/LlamaIndex integration yet
+
+This is a portfolio-grade simulation, not production security software.
 
 ## Future Enhancements
 

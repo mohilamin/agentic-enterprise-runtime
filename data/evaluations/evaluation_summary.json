@@ -1,0 +1,16 @@
+{
+  "task_resolution_accuracy": 1.0,
+  "task_routing_accuracy": 1.0,
+  "tool_policy_precision": 0.96,
+  "unsafe_tool_block_rate": 1.0,
+  "safe_tool_allow_rate": 0.8571,
+  "prompt_attack_block_rate": 1.0,
+  "handoff_acceptance_accuracy": 1.0,
+  "conflict_resolution_accuracy": 1.0,
+  "approval_decision_accuracy": 1.0,
+  "human_escalation_accuracy": 0.93,
+  "red_team_detection_rate": 1.0,
+  "decision_lineage_completeness": 1.0,
+  "audit_record_completeness": 1.0,
+  "overall_runtime_evaluation_score": 0.9805
+}

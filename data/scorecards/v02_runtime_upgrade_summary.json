@@ -1,0 +1,16 @@
+{
+  "trace_completeness_score": 0.99,
+  "evaluation_score": 0.9805,
+  "red_team_detection_rate": 1.0,
+  "approval_workflow_health_score": 0.88,
+  "live_agent_adapter_available": false,
+  "deterministic_fallback_status": "deterministic_fallback",
+  "flagship_demo_available": true,
+  "total_tests_expected_minimum": 115,
+  "unsafe_action_block_rate": 1.0,
+  "decision_lineage_completeness": 1.0,
+  "deterministic_fallback_health": 1.0,
+  "live_agent_adapter_readiness": 0.5,
+  "flagship_demo_readiness": 1.0,
+  "overall_v02_runtime_maturity_score": 0.9751
+}

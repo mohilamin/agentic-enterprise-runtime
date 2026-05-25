@@ -22,6 +22,15 @@ from src.runtime_core import (
     run_probability_simulations,
 )
 from src.storage.duckdb_store import load_duckdb_store
+from src.v02_core import (
+    create_v02_scorecards,
+    generate_red_team_outputs,
+    generate_trace_outputs,
+    live_agent_status,
+    run_evaluations,
+    run_flagship_demo,
+    update_approval_workflow,
+)
 
 LOGGER = get_logger(__name__)
 
@@ -46,6 +55,13 @@ def run_pipeline() -> dict[str, object]:
     create_memory_outputs(decisions, conflicts)
     create_briefings(decisions, queue, conflicts, incidents)
     create_scorecards(tasks, permissions, decisions, handoffs, conflicts, simulations, incidents, queue)
+    live_status = live_agent_status()
+    trace_summary = generate_trace_outputs()
+    red_team_scorecard = generate_red_team_outputs()
+    approval_sla = update_approval_workflow()
+    evaluation_summary = run_evaluations()
+    demo_summary = run_flagship_demo()
+    v02_summary = create_v02_scorecards()
     db_path = load_duckdb_store()
     summary = {
         "tasks": len(tasks),
@@ -63,6 +79,13 @@ def run_pipeline() -> dict[str, object]:
         "action_escrow": len(escrow),
         "audit_events": len(audit),
         "warehouse": db_path,
+        "v02_trace_completeness_score": trace_summary["trace_completeness_score"],
+        "v02_evaluation_score": evaluation_summary["overall_runtime_evaluation_score"],
+        "v02_red_team_detection_rate": red_team_scorecard["red_team_detection_rate"],
+        "v02_approval_sla_score": approval_sla["approval_sla_score"],
+        "v02_live_agent_mode": live_status["mode"],
+        "v02_flagship_demo": demo_summary["scenario_name"],
+        "v02_summary_score": v02_summary["overall_v02_runtime_maturity_score"],
     }
     LOGGER.info("Runtime pipeline completed: %s", summary)
     return summary
@@ -70,4 +93,3 @@ def run_pipeline() -> dict[str, object]:
 
 if __name__ == "__main__":
     run_pipeline()
-

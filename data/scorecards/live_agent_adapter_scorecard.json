@@ -1,0 +1,5 @@
+{
+  "deterministic_fallback_health": 1.0,
+  "live_agent_adapter_readiness": 0.5,
+  "live_agent_mode_status": "deterministic_fallback"
+}

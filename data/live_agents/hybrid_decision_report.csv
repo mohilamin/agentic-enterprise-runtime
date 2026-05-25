@@ -1,0 +1,2 @@
+task_id,live_agent_mode,deterministic_policy_result,hybrid_decision,governance_authoritative
+sample_hybrid_task,False,require_human_approval,deterministic_fallback,True

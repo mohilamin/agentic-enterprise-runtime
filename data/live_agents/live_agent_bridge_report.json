@@ -1,0 +1,6 @@
+{
+  "deterministic_governance_authoritative": true,
+  "live_recommendations_can_bypass_policy": false,
+  "fallback_status": "deterministic_fallback",
+  "policy_merge_strategy": "live_recommendation_is_advisory_only"
+}

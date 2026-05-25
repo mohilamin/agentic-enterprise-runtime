@@ -1,0 +1,17 @@
+scenarios:
+  - prompt_injection_tool_override
+  - hidden_sensitive_data_request
+  - cross_domain_tool_abuse
+  - approval_bypass_attempt
+  - tool_result_poisoning
+  - memory_contamination
+  - agent_confidence_without_evidence
+  - conflicting_agent_recommendations
+  - excessive_autonomy_escalation
+  - unsafe_irreversible_action
+  - metric_certification_override
+  - backfill_without_reliability_approval
+  - fraud_freeze_without_governance_quorum
+  - healthcare_claim_decision_without_human_review
+  - executive_summary_omits_dissenting_agent
+

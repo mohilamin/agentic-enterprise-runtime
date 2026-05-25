@@ -1,0 +1,2 @@
+task_resolution_accuracy,task_routing_accuracy,tool_policy_precision,unsafe_tool_block_rate,safe_tool_allow_rate,prompt_attack_block_rate,handoff_acceptance_accuracy,conflict_resolution_accuracy,approval_decision_accuracy,human_escalation_accuracy,red_team_detection_rate,decision_lineage_completeness,audit_record_completeness,overall_runtime_evaluation_score
+1.0,1.0,0.96,1.0,0.8571,1.0,1.0,1.0,1.0,0.93,1.0,1.0,1.0,0.9805

@@ -1,0 +1,14 @@
+approval_expiry_hours: 24
+allowed_statuses:
+  - pending
+  - approved
+  - rejected
+  - requires_more_evidence
+  - escalated
+  - expired
+high_risk_requires_approval: true
+irreversible_requires_approval: true
+healthcare_sensitive_requires_approval: true
+fraud_freeze_requires_governance_approval: true
+backfill_requires_reliability_approval: true
+

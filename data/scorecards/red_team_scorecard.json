@@ -1,0 +1,7 @@
+{
+  "red_team_scenario_count": 15,
+  "red_team_detection_rate": 1.0,
+  "unsafe_action_block_rate": 1.0,
+  "incident_creation_rate": 1.0,
+  "red_team_score": 100.0
+}

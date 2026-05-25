@@ -1,0 +1,2 @@
+deterministic_fallback_health,live_agent_adapter_readiness,live_agent_mode_status
+1.0,0.5,deterministic_fallback
