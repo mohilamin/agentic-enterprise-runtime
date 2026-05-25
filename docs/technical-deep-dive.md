@@ -14,3 +14,13 @@ V0.2 keeps deterministic execution as the system of record and adds production-s
 - flagship demo scenario with support, fraud, security, governance, and executive agents
 
 The key architectural choice is that live-agent outputs are advisory. They can enrich a recommendation, but they cannot bypass deterministic policy, safety checks, approval workflow, audit logging, or decision lineage.
+
+## V0.3 Public Demo Package
+
+V0.3 adds review-oriented material without changing runtime behavior:
+- `docs/one-pagers/technical-reviewer-one-pager.md`
+- `docs/interview/ten-minute-technical-walkthrough.md`
+- `docs/screenshots/README.md`
+- `docs/blog/technical-blog-draft.md`
+
+Use these docs to evaluate the architecture quickly before reading source modules.

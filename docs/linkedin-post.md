@@ -19,3 +19,14 @@ V0.2 adds:
 - flagship demo mode for a support refund workflow involving fraud, security, governance, and executive agents
 
 The important design choice: live-agent recommendations are advisory. The deterministic governance runtime remains authoritative.
+
+## V0.3 Launch Sequence
+
+Use `docs/launch/linkedin-launch-sequence.md` for the five-post launch plan:
+1. flagship announcement
+2. architecture deep dive
+3. red-team and safety
+4. tracing and evaluations
+5. portfolio ecosystem
+
+Each individual post is available under `docs/launch/` and is ready to adapt for LinkedIn.

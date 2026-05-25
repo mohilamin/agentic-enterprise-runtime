@@ -1,5 +1,22 @@
 # Agentic Enterprise Runtime
 
+## Flagship Project
+
+Agentic Enterprise Runtime is my flagship AI infrastructure project. It simulates a governed enterprise multi-agent runtime where specialized agents route tasks, request tools, hand off work, resolve conflicts, evaluate risk, trigger approval workflows, generate audit trails, and produce executive-ready decisions.
+
+This is not a chatbot or single-agent demo. It is a control plane for enterprise AI agents.
+
+Validation:
+- 12 deterministic domain agents
+- 41 governed tools
+- 600 synthetic enterprise tasks
+- 8 probability scenarios
+- 145 tests passing
+- Ruff checks passing
+- FastAPI and Streamlit launched locally
+- End-to-end runtime pipeline validated
+- Flagship demo validated
+
 ## Executive Summary
 
 This project simulates a future enterprise AI operating layer: a governed multi-agent runtime.
@@ -13,6 +30,18 @@ Large enterprises will not rely on one AI assistant. They will deploy specialize
 This runtime simulates how those agents can be coordinated safely: task routing, tool access governance, handoffs, confidence scoring, conflict resolution, probability-based simulation, approval workflows, audit trails, human escalation, and executive briefings.
 
 **Positioning:** This project demonstrates future-facing AI infrastructure: governed multi-agent orchestration, policy-controlled tool access, probability-aware decision simulation, and audit-ready enterprise automation.
+
+## What This Project Proves
+
+- Multi-agent orchestration across enterprise domains.
+- Policy-controlled tool access with deterministic governance authority.
+- Agent handoff design with evidence and acceptance records.
+- Conflict arbitration for contradictory agent recommendations.
+- Red-team testing for prompt injection, tool abuse, approval bypass, and unsafe actions.
+- Trace-style observability for task, tool, handoff, guardrail, and decision spans.
+- Repeatable evaluation harness for routing, policy, approvals, red-team detection, lineage, and audit completeness.
+- Human-in-the-loop approval workflow with action escrow and SLA reporting.
+- Audit-ready decision lineage and executive/operator briefings.
 
 ## Business Problem
 
@@ -48,6 +77,21 @@ V0.2 turns the V0.1 governed deterministic runtime into a more production-shaped
 - V0.2 scorecards for runtime maturity, observability, evaluation, red-team, approvals, and live-agent readiness.
 
 Deterministic mode is the default. No API key is required. Tests do not call external APIs. Live-agent mode is optional, disabled by default, and gracefully falls back when optional dependencies or credentials are missing.
+
+## V0.3 Showcase Polish
+
+V0.3 adds the public launch layer around the runtime:
+
+- screenshot capture guides
+- five-minute demo script
+- ten-minute technical walkthrough
+- recruiter, executive, technical reviewer, and architecture one-pagers
+- interview talking points and STAR stories
+- technical blog draft
+- LinkedIn launch sequence
+- resume bullets and ATS keywords
+- GitHub profile/release setup notes
+- portfolio landing repo update snippet
 
 ## Architecture
 
@@ -197,6 +241,43 @@ Scenario: `support_refund_with_fraud_and_prompt_injection`
 
 The demo routes a refund task through support, fraud, security, governance, and executive agents. It detects prompt injection, blocks direct account freeze, stages the action for human approval, and writes trace, audit, briefing, and scorecard evidence.
 
+Flow: support refund request -> fraud review -> governance review -> security detects prompt injection -> conflict arbitration -> approval queue -> executive briefing -> traces/audit/scorecards.
+
+## Screenshots to Review
+
+Start with [docs/screenshots/README.md](docs/screenshots/README.md).
+
+Recommended captures:
+- Executive Overview
+- Tool Governance
+- Multi-Agent Handoffs
+- Red-Team Results
+- Trace Explorer
+- Evaluation Harness
+- Approval Queue
+- Flagship Demo Summary
+- Scorecards
+
+## Review Paths
+
+Recruiter path:
+1. README executive summary
+2. screenshot guide
+3. [recruiter one-pager](docs/one-pagers/recruiter-one-pager.md)
+4. [LinkedIn flagship post](docs/launch/linkedin-post-1-flagship-announcement.md)
+
+Senior engineer path:
+1. [architecture one-pager](docs/one-pagers/architecture-one-pager.md)
+2. [technical deep dive](docs/technical-deep-dive.md)
+3. V0.2 design docs
+4. evaluation and red-team scorecards
+
+AI platform path:
+1. [live-agent adapter design](docs/live-agent-adapter-design.md)
+2. [tool governance design](docs/tool-governance-design.md)
+3. tracing and evaluation docs
+4. approval workflow and red-team docs
+
 ## Quickstart
 
 ```bash
@@ -239,7 +320,7 @@ Current validation target:
 - probability scenario generation passes
 - full pipeline passes
 - flagship demo command passes
-- at least 115 tests pass
+- 145 tests pass
 - ruff passes
 - API and dashboard launch locally
 
@@ -255,6 +336,8 @@ Current validation target:
 - no real identity provider
 - no live approval system
 - no real OpenAI/Anthropic/LangGraph/LlamaIndex integration yet
+- no external API calls in tests
+- not production security software
 
 This is a portfolio-grade simulation, not production security software.
 
@@ -262,12 +345,15 @@ This is a portfolio-grade simulation, not production security software.
 
 - OpenAI Agents SDK implementation
 - LangGraph multi-agent workflow
+- real OpenAI Agents SDK adapter
+- OpenTelemetry collector export
 - LlamaIndex tool orchestration
 - AutoGen/CrewAI comparison
 - OpenPolicyAgent policy engine
 - vector/RAG tool integration
 - real identity provider integration
 - Slack/Jira/ServiceNow approvals
+- real business tool adapters
 - Kafka event streaming
 - Snowflake/Databricks deployment
 - observability with OpenTelemetry

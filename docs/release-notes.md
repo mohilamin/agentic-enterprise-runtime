@@ -29,3 +29,17 @@
 - Approval decision history and SLA scorecards
 - Flagship demo mode
 - New V0.2 API endpoints, dashboard sections, DuckDB tables, and maturity scorecards
+
+## V0.3 Showcase Polish
+
+- README flagship positioning sharpened
+- screenshot capture guides added
+- five-minute demo script added
+- ten-minute technical walkthrough added
+- recruiter, executive, architecture, interview, and technical reviewer one-pagers added
+- LinkedIn launch sequence and individual posts added
+- technical blog draft added
+- resume bullets, ATS keywords, and role-specific positioning added
+- GitHub repo setup and release notes added
+- portfolio landing update snippet added
+- showcase docs validation script added

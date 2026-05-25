@@ -16,3 +16,7 @@
 - 3:10-4:00: Show red-team scenarios and evaluation scorecards.
 - 4:00-4:40: Show approval queue, approval history, action escrow, and SLA scorecard.
 - 4:40-5:00: Map the design to production systems such as agent frameworks, policy engines, observability, and approval integrations.
+
+## V0.3 Demo Assets
+
+Use the polished walkthrough in `docs/interview/five-minute-demo-script.md` for recording or live interviews. Use `docs/interview/ten-minute-technical-walkthrough.md` when the reviewer wants implementation detail.

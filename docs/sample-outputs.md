@@ -21,3 +21,12 @@
 - `data/demo/flagship_demo_summary.json`
 - `data/live_agents/live_agent_adapter_status.json`
 - `data/scorecards/v02_runtime_upgrade_summary.json`
+
+## V0.3 Showcase Docs
+
+- `docs/screenshots/README.md`
+- `docs/interview/five-minute-demo-script.md`
+- `docs/one-pagers/architecture-one-pager.md`
+- `docs/blog/technical-blog-draft.md`
+- `docs/launch/linkedin-launch-sequence.md`
+- `docs/resume/flagship-resume-bullets.md`

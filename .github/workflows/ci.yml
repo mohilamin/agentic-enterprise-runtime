@@ -18,6 +18,6 @@ jobs:
       - run: python -m src.data_generation.generate_tasks
       - run: python -m src.data_generation.generate_probability_scenarios
       - run: python -m src.pipeline.run_all
+      - run: python scripts/validate_showcase_docs.py
       - run: python -m pytest
       - run: python -m ruff check .
-
