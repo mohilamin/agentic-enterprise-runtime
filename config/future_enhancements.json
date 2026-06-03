@@ -1,0 +1,31 @@
+{
+  "project_name": "agentic-enterprise-runtime",
+  "enhancement_theme": "governed multi-agent runtime",
+  "future_enhancements": [
+    {
+      "name": "real agent SDK adapter",
+      "status": "planned",
+      "why_it_matters": "Moves the local prototype closer to an enterprise implementation path."
+    },
+    {
+      "name": "OPA policy engine",
+      "status": "planned",
+      "why_it_matters": "Moves the local prototype closer to an enterprise implementation path."
+    },
+    {
+      "name": "OpenTelemetry traces",
+      "status": "planned",
+      "why_it_matters": "Moves the local prototype closer to an enterprise implementation path."
+    },
+    {
+      "name": "ServiceNow/Jira approval workflow",
+      "status": "planned",
+      "why_it_matters": "Moves the local prototype closer to an enterprise implementation path."
+    },
+    {
+      "name": "authenticated tool gateway",
+      "status": "planned",
+      "why_it_matters": "Moves the local prototype closer to an enterprise implementation path."
+    }
+  ]
+}

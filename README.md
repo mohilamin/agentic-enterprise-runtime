@@ -470,3 +470,21 @@ This is a portfolio-grade simulation, not production security software.
 - observability with OpenTelemetry
 - cloud deployment
 - role-based access control
+
+<!-- FUTURE_ENHANCEMENT_SCORECARD_START -->
+## Future Enhancement Readiness
+
+I added a small readiness scorecard so the production roadmap is not just prose. The check reads `config/future_enhancements.json`, verifies the repo has the expected roadmap/review artifacts, and writes:
+
+- `data/scorecards/future_enhancement_readiness.json`
+- `data/scorecards/future_enhancement_readiness.csv`
+
+Run it with:
+
+```bash
+python scripts/generate_future_enhancement_scorecard.py
+```
+
+This is a local planning signal, not a claim that the repository is production-ready.
+<!-- FUTURE_ENHANCEMENT_SCORECARD_END -->
+
